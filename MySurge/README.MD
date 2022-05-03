@@ -16,7 +16,7 @@
 
 
 ## 常用模块
-1、B站去广告
+1、B站去广告(不如直接去下美区版)
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 
 ~~2、Boxjs
