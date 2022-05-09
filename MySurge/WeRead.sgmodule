@@ -1,0 +1,8 @@
+#!name=WeRead
+#!desc=增加微信读书免费时长（商店旧版 6.0.1-5.4.3）
+
+[MITM]
+hostname = %APPEND% i.weread.qq.com,101*.*.*,116.*.*.*,117.*.*.*,120.*.*.*,121.*.*.*,140.*.*.*,183.*.*.*,203*.*.*
+
+[Script]
+微信读书 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/WeRead.js
