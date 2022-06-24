@@ -2,7 +2,7 @@
 #!desc=抖音(≤16.2.0)去水印、京东去开屏、Duck搜索、奈飞评分、WPS、彩云天气……
 
 [MITM]
-hostname = %APPEND% www.google.cn,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,api.m.jd.com,duckduckgo.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,account.wps.cn,biz.caiyunapp.com
+hostname = %APPEND% www.google.cn,*.snssdk.com, *.amemv.com, *.tiktokv.com, *.musical.ly,api.m.jd.com,duckduckgo.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,account.wps.cn,biz.caiyunapp.com
 [Rule]
 # > 屏蔽HTTP3/QUIC协议
 AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
@@ -17,8 +17,6 @@ URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-D
 # > Google Search/Maps
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-# > 抖音去开屏去广告兼无水印
-^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) https://aweme.snssdk.com/aweme/v1/ header
 # > DuckDuckGo搜索
 ^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ https://github.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
@@ -29,7 +27,8 @@ URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-D
 
 [Script]
 # > 抖音去广告去水印
-抖音去广告水印 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/aweme.js
+抖音短视频 = type=http-request,pattern=^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/Aweme.js
+抖音短视频 = type=http-response,pattern=^https?:\/\/api.*\.amemv\.com\/aweme\/v1\/.+#scripting$,requires-body=1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/Aweme.js
 # > 奈飞评分
 奈飞评分1 = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 奈飞评分2 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
