@@ -1,0 +1,44 @@
+# > 源自神机的Unbreak.list，仅保留自用部分。 https://is.gd/LoOv1e
+# > General
+DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
+DOMAIN,bdtj.tagtic.cn
+# > Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
+DOMAIN,sdk.e.qq.com
+DOMAIN,emoji.qpic.cn
+# > misakaf emby
+DOMAIN-SUFFIX,misakaf.org
+IP-CIDR,154.208.10.63/32,no-resolve
+IP-CIDR,194.180.179.226/32,no-resolve
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+# > other
+DOMAIN,www.91chaoqing.com
+DOMAIN-SUFFIX,chaizi.cc
+DOMAIN-SUFFIX,isha.ren
+# > Apple @DivineEngine @2022.2.12
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,apple-support.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
