@@ -1,0 +1,12 @@
+#> 抖音去广告去水印(<= 16.2.0) 
+[MITM]
+hostname = api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly
+[Rule]
+URL-REGEX,^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/,REJECT
+URL-REGEX,^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/,REJECT
+URL-REGEX,^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/,REJECT
+
+[URL Rewrite]
+^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) header https://aweme.snssdk.com/aweme/v1/
+[Script]
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\? requires-body=1,max-size=-1,script-path= https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/aweme.js, requires-body=true, timeout=10, tag=抖音去水印
