@@ -7,4 +7,4 @@ stream-checktool = script-name=stream-check, title="Stream", content="请刷新�
 
 [Script]
 #奈飞油管解锁检测
-stream-check= type=generic, timeout=15, script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/stream-check2.js
+stream-check= type=generic, timeout=15, script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/stream-check2.js
