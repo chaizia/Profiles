@@ -1,4 +1,4 @@
-// @iEwha 
+// @iEwha https://github.com/iEwha/Profiles/blob/master/Script/Aweme.js
 if (typeof $response === "undefined") {
   const path = [
     "/feed/", // 推荐
