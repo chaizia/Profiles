@@ -3,6 +3,16 @@
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
+# > Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+# >> Paramount+
+# DOMAIN,pubads.g.doubleclick.net
+# > Strava
+DOMAIN,analytics.strava.com
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
 # > Tencent
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
@@ -12,11 +22,6 @@ DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
 # > misakaf emby
 DOMAIN-SUFFIX,misakaf.org
-IP-CIDR,154.208.10.63/32,no-resolve
-IP-CIDR,194.180.179.226/32,no-resolve
-# > Umeng
-DOMAIN,msg.umeng.com
-DOMAIN,msg.umengcloud.com
 # > other
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.cc
