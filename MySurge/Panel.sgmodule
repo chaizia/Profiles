@@ -11,8 +11,8 @@ stream-checktool=script-name=stream-check,title="𝗦𝗧𝗥𝗘𝗔𝗠 𝗖�
 
 [Script]
 #FlushDNS
-SurgePro_FlushDNS=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/surgepro_flushdns.js,argument=icon=power.circle&color=#DC143C
+SurgePro_FlushDNS=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/surgepro_flushdns.js,argument=icon=power.circle&color=#DC143C
 #节点信息
-Netinfo=type=generic,timeout=3,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/ipcheck.js
+Netinfo=type=generic,timeout=3,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/ipcheck.js
 #奈飞油管解锁检测
-stream-check=type=generic,timeout=15,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/stream-check2.js
+stream-check=type=generic,timeout=15,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/stream-check2.js
