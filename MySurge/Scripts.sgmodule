@@ -36,4 +36,4 @@ URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-D
 # > WPS VIP
 WPSVIP = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/account\.wps\.cn\/api\/users,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # > 彩云天气VIP
-彩云天气VIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
+彩云天气VIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/caiyun.js
