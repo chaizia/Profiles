@@ -19,7 +19,7 @@
 
 * [@Peng-YM](https://github.com/Peng-YM/Sub-Store/tree/master/config) Sub-Store
 
-* [@Hackl0us](https://github.com/Hackl0us/GeoIP2-CN) 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段 🇨🇳
+* [@Hackl0us](https://github.com/Hackl0us/GeoIP2-CN) GeoIP2-CN
 
 
 
