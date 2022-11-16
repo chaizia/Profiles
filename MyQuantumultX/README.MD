@@ -22,6 +22,8 @@
 
 * [@Hyseen](https://github.com/Hyseen/Scripts/tree/master/QuantumultX) 各种多媒体解锁检测
 
+* [@iEwha](https://github.com/iEwha/Profiles/tree/master/QuantumultX) 无需多介绍，就是棒
+
 * [@KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX/tree/master/Scripts) 无需多介绍，KOP-XIAO
 
 ![](https://raw.githubusercontent.com/chaizia/Profiles/master/MyQuantumultX/%E6%97%A5%E5%BF%97.png)
