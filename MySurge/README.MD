@@ -13,6 +13,7 @@
 * [@ventusoon](https://github.com/ventusoon/ventus) 不用介绍，就是棒
 * [@Neurogram-R](https://github.com/Neurogram-R/Surge) DisneyPlus-Dualsub脚本
 * [@mieqq](https://github.com/mieqq/mieqq) P佬
+* [@Maasea](https://github.com/Maasea/sgmodule) sgmodule：YouTubeAds
 
 
 ## 常用模块
