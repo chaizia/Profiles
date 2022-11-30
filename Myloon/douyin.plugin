@@ -1,7 +1,13 @@
+[Rule]
+URL-REGEX,^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/,REJECT
+URL-REGEX,^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/,REJECT
+URL-REGEX,^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/,REJECT
+URL-REGEX,^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/,REJECT
+URL-REGEX,^https?:\/\/.+?\/img\/ad\.union\.api\/,REJECT
+
 [URL Rewrite]
 # 抖音 去广告&水印
 # 需配合脚本使用
-
 ^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/ reject
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/feed\/ https://aweme.snssdk.com/aweme/v1/feed/ header
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/aweme\/post\/ https://aweme.snssdk.com/aweme/v1/aweme/post/ header
