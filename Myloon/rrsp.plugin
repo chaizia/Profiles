@@ -7,22 +7,24 @@ URL-REGEX,^https?:\/\/api\.rr\.tv\/.*?Version,REJECT
 # ～ ⓪ RRTV_屏蔽限時彈窗@ddgksf2013
 URL-REGEX,https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON,REJECT
 [Script]
+# ～ RRTV_level_info
+http-response ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ⑧ RRTV_去除首頁廣告@ddgksf2013
-http-response https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ⑦ RRTV_去除廣場tab@ddgksf2013
-http-response ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ⑥ RRTV_去除商城廣告@ddgksf2013
-http-response ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ⑤ RRTV_Ad_List@ddgksf2013
-http-response ^https:\/\/api\.rr\.tv\/user\/privilege\/list script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response ^https:\/\/api\.rr\.tv\/user\/privilege\/list script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ④ RRTV_Ad_All@ddgksf2013
-http-response ^https:\/\/api\.rr\.tv\/ad\/getAll script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response ^https:\/\/api\.rr\.tv\/ad\/getAll script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ③ RRTV_Get_Drama@ddgksf2013
-http-response ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ② RRTV_Watch_V4@ddgksf2013
-http-response https://api.rr.tv/watch/v4 script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response https://api.rr.tv/watch/v4 script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 # ～ ① RRTV_User_Info@ddgksf2013
-http-response https://api.rr.tv/user/profile script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js, requires-body=true, timeout=10, tag=人人视频VIP
+http-response https://api.rr.tv/user/profile script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js, requires-body=true, timeout=10, tag=人人视频VIP
 
 [MITM]
 hostname = api.rr.tv
