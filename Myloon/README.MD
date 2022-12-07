@@ -8,7 +8,7 @@
 
 * [@ikanam](https://github.com/ikanam/Surge-Scripts) 115离线
 
-* [@ddgksf2013](https://gitlab.com/ddgksf2013/Cuttlefish) crack VIP 彩云、人人视频
+* [@ddgksf2013](https://github.com/ddgksf2013) crack VIP 彩云、人人视频
 
 * [@Nick-workflow](https://github.com/Nick-workflow/script-test) Quantumult X 贴吧去广告
 
