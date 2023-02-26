@@ -1,0 +1,68 @@
+#!name=知乎净化
+#!desc=知乎广告去除
+
+[MITM]
+hostname = %APPEND% 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226
+[Rule]
+DOMAIN,appcloud.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,crash2.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
+IP-CIDR,103.41.167.237/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/moments\/tab_v2,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count),REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/me\/guides,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/moments\/recent,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/ad-style-service\/request,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/api\/v4\/profile\/cards,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/drama\/hot-drama-list,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/topics\/rank_list\/question\/\d+\/related,REJECT
+
+[Script]
+RRTV_level_info = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/rrtv_json.js
+
+知乎_我的页面开通会员CARD = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/unlimited/go/my_card,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_开屏广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_用户信息 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/people/self$,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_推荐信息流去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/topstory\/recommend,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_搜索页去除推广 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_猜你想搜下面条目 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/search\/recommend_query,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_删除会员页面会员购 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/tabs,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_热榜页去除广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_会员页面顶部处理 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_回答信息流去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/next-data,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_问题回答列表 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/feeds,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_回答内容优化 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_会员页面购物处理 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/modules,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_修改用户盐值 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_消息页 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message),script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
+
+知乎_关注页面去除今日话题和为您推荐 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/moments_v3,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/zhihu.js
