@@ -1,6 +1,0 @@
-#!name=奈飞油管检测
-#!desc=解锁支持和会员支持检测
-[Panel]
-stream-checktool = script-name=stream-check, title="Stream Check", content="请刷新面板", update-interval=-1
-[Script]
-stream-check= type=generic, timeout=15, script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/stream-check2.js
