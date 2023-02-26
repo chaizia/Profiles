@@ -1,0 +1,23 @@
+#!name=菜鸟裹裹
+#!desc=菜鸟净化 @ https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Cainiao.conf
+
+[MITM]
+hostname = %APPEND% cn-acs.m.cainiao.com,guide-acs.m.taobao.com
+
+[Rule]
+# > 菜鸟裹裹
+DOMAIN,amdc.m.taobao.com,REJECT
+# > 菜鸟裹裹_通用广告请求
+URL-REGEX,^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/,REJECT-TINYGIF
+# > 菜鸟裹裹_支付宝小程序_通用广告请求
+URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show,REJECT-TINYGIF
+# > 菜鸟裹裹_支付宝小程序_底部商品推广
+URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad,REJECT-TINYGIF
+# > 菜鸟裹裹_支付宝小程序_匿名选择
+URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.consultmerge,REJECT-TINYGIF
+
+[Script]
+菜鸟首页惊喜推广 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+菜鸟搜索框下方今日好物推荐 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+菜鸟首页底部商品推广 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+菜鸟寄件推广 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
