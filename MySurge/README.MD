@@ -17,30 +17,19 @@
 
 
 ## 常用模块
-1、B站去广告(不如直接去下美区版)
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 
-~~2、Boxjs
+~~1、Boxjs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule~~
 
-~~3、emby vip
+~~2、emby vip
 https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.sgmodule~~
 
-4、Sub-Store
-https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule
+~~3、Sub-Store
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule~~
 
-~~5、youtube
-https://raw.githubusercontent.com/Skyxim/Profile/main/Surge/Module/YouTube.sgmodule~~
+~~4、youtube
+https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule~~
 
-~~6、知乎
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.sgmodule~~
-
-7、常用
-https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/Scripts.sgmodule
-
-~~8、贴吧
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule~~
-
-9、奈飞解锁检测
-https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/stream-check.sgmodule
+5、史上最屌的转换
+https://github.com/chengkongyiban
 
