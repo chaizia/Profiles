@@ -38,9 +38,16 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
+# > MisakaF emby
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN,888888.888888.al
 # > other
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.cc
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN,ad.12306.cn
+DOMAIN,gg.caixin.com
+DOMAIN,sdkapp.uve.weibo.com
 DOMAIN-SUFFIX,kuwo.cn
 DOMAIN,ad.12306.cn
 DOMAIN,gg.caixin.com
