@@ -38,8 +38,8 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
-# > MisakaF emby
-DOMAIN-SUFFIX,misakaf.org
+# > MisakaF VIP
+DOMAIN,embyvip.misakaf.org
 DOMAIN,888888.888888.al
 # > other
 DOMAIN,www.91chaoqing.com
