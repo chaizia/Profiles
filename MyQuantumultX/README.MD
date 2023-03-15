@@ -26,6 +26,8 @@
 
 * [@KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX/tree/master/Scripts) 无需多介绍，KOP-XIAO
 
+* [@RuCu6](https://github.com/RuCu6/QuanX) 广告都去死
+
 ![](https://raw.githubusercontent.com/chaizia/Profiles/master/MyQuantumultX/%E6%97%A5%E5%BF%97.png)
 
 
