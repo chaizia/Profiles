@@ -32,6 +32,20 @@ DOMAIN,adx.hupu.com
 DOMAIN,adx-api.hupu.com
 DOMAIN,goblin.hupu.com
 DOMAIN,ccdace.hupu.com
+# > Tencent
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,livep.l.t002.ottcn.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,wa.gtimg.com
 # > other
 DOMAIN-SUFFIX,u3.ucweb.com
 DOMAIN,data.flurry.com
