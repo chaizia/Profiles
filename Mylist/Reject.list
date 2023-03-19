@@ -13,6 +13,25 @@ IP-CIDR,183.61.49.155/32,no-resolve
 IP-CIDR,59.36.121.252/32,no-resolve
 IP-CIDR,111.48.226.173/32,no-resolve
 IP-CIDR,111.231.13.74/32,no-resolve
+# > General
+DOMAIN-KEYWORD,adservice
+# > Apple
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+# > Google
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN,ads.youtube.com
+# > Hupu
+DOMAIN,adx.hupu.com
+DOMAIN,adx-api.hupu.com
+DOMAIN,goblin.hupu.com
+DOMAIN,ccdace.hupu.com
 # > other
 DOMAIN-SUFFIX,u3.ucweb.com
 DOMAIN,data.flurry.com
@@ -20,12 +39,13 @@ DOMAIN,stun.services.mozilla.com
 DOMAIN,ad.caiyunapp.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN,wspeed.qq.com
-DOMAIN,ccdace.hupu.com
-DOMAIN,goblin.hupu.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,devs-data.dutils.com
 # > 常见去广告
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,bayescom.com
 DOMAIN-SUFFIX,bayescom.cn
 DOMAIN-KEYWORD,bayescom
