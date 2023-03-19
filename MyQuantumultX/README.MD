@@ -28,6 +28,8 @@
 
 * [@RuCu6](https://github.com/RuCu6/QuanX) 广告都去死
 
+* [@fmz200](https://github.com/fmz200/wool_scripts) wool_scripts
+
 ![](https://raw.githubusercontent.com/chaizia/Profiles/master/MyQuantumultX/%E6%97%A5%E5%BF%97.png)
 
 
