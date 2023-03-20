@@ -63,7 +63,6 @@ DOMAIN,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,bayescom.com
 DOMAIN-SUFFIX,bayescom.cn
 DOMAIN-KEYWORD,bayescom
-DOMAIN,ntb.lanjie100.com
 # > 高德地图
 DOMAIN,amdc.m.taobao.com
 DOMAIN,amap-aos-info-nogw.amap.com
