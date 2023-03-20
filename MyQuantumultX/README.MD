@@ -30,6 +30,8 @@
 
 * [@fmz200](https://github.com/fmz200/wool_scripts) wool_scripts
 
+* [@yqc007](https://github.com/yqc007/QuantumultX) 浥轻尘
+
 ![](https://raw.githubusercontent.com/chaizia/Profiles/master/MyQuantumultX/%E6%97%A5%E5%BF%97.png)
 
 
