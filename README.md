@@ -20,6 +20,8 @@
 
 * [@Hackl0us](https://github.com/Hackl0us/GeoIP2-CN) GeoIP2-CN
 
+* [@Masaiki](https://github.com/Masaiki/GeoIP2-CN/) GeoIP2-CN
+
 
 
 
