@@ -41,6 +41,9 @@ DOMAIN,emoji.qpic.cn
 # > MisakaF VIP
 DOMAIN,embyvip.misakaf.org
 DOMAIN,888888.888888.al
+# > aliyunpan
+DOMAIN-SUFFIX,aliyundrive.net
+DOMAIN-SUFFIX,aliyuncs.com
 # > other
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.cc
