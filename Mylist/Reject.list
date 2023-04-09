@@ -61,6 +61,8 @@ DOMAIN,devs-data.dutils.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com
 DOMAIN-SUFFIX,bayescom.com
 DOMAIN-SUFFIX,bayescom.cn
 DOMAIN-KEYWORD,bayescom
