@@ -38,9 +38,6 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
-# > MisakaF VIP
-DOMAIN,embyvip.misakaf.org
-DOMAIN,cn.asa4.cn
 # > aliyunpan
 DOMAIN-SUFFIX,aliyundrive.net
 DOMAIN-SUFFIX,aliyuncs.com
