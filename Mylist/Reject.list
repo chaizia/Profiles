@@ -6,6 +6,9 @@ DOMAIN,updates-http.cdn-apple.com
 DOMAIN,xp.apple.com
 DOMAIN,basejumper.apple.com
 DOMAIN-KEYWORD,acsegateway
+# > 绕过企业证书过期
+DOMAIN,ocsp.apple.com
+DOMAIN,ocsp2.apple.com
 # > 垃圾空链接
 IP-CIDR,36.110.144.18/32,no-resolve
 IP-CIDR,39.165.89.140/32,no-resolve
