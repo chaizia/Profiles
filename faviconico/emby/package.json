@@ -1,6 +1,6 @@
 {
 	"name": "Emby图标库",
-	"description": "v1.0.0",
+	"description": "v1.0.1",
 	"icons": [
 		
 		{
@@ -20,11 +20,19 @@
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Misty/square.png"
 		},
 		{
-			"name": "Mulgore-round",
+			"name": "Orange-round",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Orange/round.png"
+		},
+		{
+			"name": "Orange-square",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Orange/square.png"
+		},
+		{
+			"name": "JUDOG-round",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/JUDOG/round.png"
 		},
 		{
-			"name": "Mulgore-square",
+			"name": "JUDOG-square",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/JUDOG/square.png"
 		}
 	]
