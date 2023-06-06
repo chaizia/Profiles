@@ -1,6 +1,6 @@
 {
 	"name": "Emby图标库",
-	"description": "v1.0.1",
+	"description": "v1.0.2",
 	"icons": [
 		
 		{
@@ -10,6 +10,14 @@
 		{
 			"name": "MisakaF-square",
 			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/MisakaF/square.png"
+		},
+		{
+			"name": "Aliyunpan-round",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Aliyunpan/round.png"
+		},
+		{
+			"name": "Aliyunpan-square",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Aliyunpan/square.png"
 		},
 		{
 			"name": "Misty-round",
