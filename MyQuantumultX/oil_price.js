@@ -4,7 +4,7 @@
 0 8 ? * * https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js, tag=今日油价, enabled=true
 */
 
-var region = 'hubei';
+var region = 'hubei/yichang';
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
