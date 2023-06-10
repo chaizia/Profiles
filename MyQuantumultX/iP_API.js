@@ -42,7 +42,8 @@ var flags = new Map([[ "AC" , "🇦🇨" ] ,["AE","🇦🇪"], [ "AF" , "🇦�
 
 var body = $response.body;
 var obj = JSON.parse(body);
-var title =flags.get(obj['countryCode']) + ' '+Area_check(obj['country'])+ ' '+City_ValidCheck(obj['city']);//+ City_ValidCheck(obj['city']);
+//var title =flags.get(obj['countryCode']) + ' '+Area_check(obj['country'])+ ' '+City_ValidCheck(obj['city']);//+ City_ValidCheck(obj['city']);
+var title =flags.get(obj['countryCode']) + ' '+City_ValidCheck(obj['city']);
 //var subtitle = ISP_ValidCheck(obj['regionName'] + ' ' + obj['isp']);
 var subtitle = ISP_ValidCheck(obj['isp'] + ' ' + obj['query']);
 var ip = obj['query'];
