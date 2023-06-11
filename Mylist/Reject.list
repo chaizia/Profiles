@@ -4,11 +4,6 @@ DOMAIN,mesu.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,xp.apple.com
-DOMAIN,basejumper.apple.com
-DOMAIN-KEYWORD,acsegateway
-# > 绕过企业证书过期
-DOMAIN,ocsp.apple.com
-DOMAIN,ocsp2.apple.com
 # > 垃圾空链接
 IP-CIDR,36.110.144.18/32,no-resolve
 IP-CIDR,39.165.89.140/32,no-resolve
@@ -16,8 +11,6 @@ IP-CIDR,183.61.49.155/32,no-resolve
 IP-CIDR,59.36.121.252/32,no-resolve
 IP-CIDR,111.48.226.173/32,no-resolve
 IP-CIDR,111.231.13.74/32,no-resolve
-# > General
-DOMAIN-KEYWORD,adservice
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
@@ -69,16 +62,3 @@ DOMAIN-SUFFIX,toblog.ctobsnssdk.com
 DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com
 DOMAIN-SUFFIX,bayescom.com
 DOMAIN-SUFFIX,bayescom.cn
-DOMAIN-KEYWORD,bayescom
-# > 高德地图
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,awaken.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-# > 知乎
-DOMAIN,appcloud.zhihu.com
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,crash2.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-IP-CIDR, 118.89.204.198/32
-IP-CIDR, 103.41.167.237/32
