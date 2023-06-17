@@ -32,6 +32,8 @@ DOMAIN-SUFFIX,u3.ucweb.com
 IP-CIDR,203.107.1.1/24,no-resolve
 # > 百度
 DOMAIN-SUFFIX,pos.baidu.com
+# > 百度贴吧
+IP-CIDR,180.76.76.200/32,no-resolve
 # > 百度地图
 DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
