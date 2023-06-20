@@ -18,6 +18,8 @@ DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,unityads.unity3d.com
+# > Safari 防跳转
+DOMAIN,app-site-association.cdn-apple.com
 # > 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN,proxy.safebrowsing.apple
