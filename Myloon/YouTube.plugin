@@ -1,6 +1,8 @@
 #!name = YouTube去广告
-#!desc = 移除广告，需禁用UDP443
-#!openUrl = https://is.gd/B5yVJD
+#!desc = 移除广告，须禁用UDP443
+#!openUrl = 
+#!author = Maasea 可莉🅥
+#!homepage = https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
 
 [Rewrite]
