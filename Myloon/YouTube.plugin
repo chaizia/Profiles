@@ -1,0 +1,18 @@
+#!name = YouTube去广告
+#!desc = 移除广告，需要禁用UDP协议的443端口。此插件仅建议iOS 15以上设备使用，Premium订阅用户请勿使用。
+#!openUrl = https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule
+#!author = Maasea VirgilClyne Choler DivineEngine app2smile
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
+
+[Rewrite]
+# 使用reject-200减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-200
+
+[Script]
+# 该插件已足够全面，无需其他规则混用，防止复写规则被破坏。
+http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_request.js, requires-body = true, binary-body-mode = true, tag = YouTube Request
+
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube Response
+
+[MITM]
+hostname = rr*.googlevideo.com, youtubei.googleapis.com
