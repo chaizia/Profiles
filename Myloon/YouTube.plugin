@@ -1,7 +1,6 @@
 #!name = YouTube去广告
-#!desc = 移除广告，需要禁用UDP协议的443端口。此插件仅建议iOS 15以上设备使用，Premium订阅用户请勿使用。
-#!openUrl = https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule
-#!author = Maasea VirgilClyne Choler DivineEngine app2smile
+#!desc = 移除广告，需禁用UDP443
+#!openUrl = https://is.gd/B5yVJD
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
 
 [Rewrite]
