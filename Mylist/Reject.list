@@ -1,10 +1,6 @@
 # > 部分摘自MyBlockAds。https://is.gd/tiF1NW
-
-# > 屏蔽iOS升级
-DOMAIN,mesu.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,xp.apple.com
+# > 屏蔽 iOS 更新, 请使用描述文件。支持 iOS12 - iOS16 所有设备
+# https://raw.githubusercontent.com/RuCu6/QuanX/main/Files/2023noota.mobileconfig
 # > 垃圾空链接
 IP-CIDR,36.110.144.18/32,no-resolve
 IP-CIDR,39.165.89.140/32,no-resolve
