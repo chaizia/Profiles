@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,aliyundrive.net
 DOMAIN-SUFFIX,aliyuncs.com
 # > other
 DOMAIN-SUFFIX,chaizi.cc
-DOMAIN-SUFFIX,kuwo.cn
 DOMAIN,ad.12306.cn
 DOMAIN,gg.caixin.com
+DOMAIN,ca.iadsdk.apple.com
+DOMAIN,amdc.m.taobao.com
