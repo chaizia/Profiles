@@ -28,7 +28,7 @@
 
 * [@RuCu6](https://github.com/RuCu6/QuanX) 广告都去死
 
-* [@fmz200](https://github.com/fmz200/wool_scripts) wool_scripts
+* [@fmz200](https://github.com/fmz200/wool_scripts) wool_scripts 奶思
 
 * [@yqc007](https://github.com/yqc007/QuantumultX) 浥轻尘
 
