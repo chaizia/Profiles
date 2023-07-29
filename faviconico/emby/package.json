@@ -1,47 +1,27 @@
 {
-	"name": "Emby图标库",
-	"description": "v1.0.3",
+	"name": "Emby自用图标库",
+	"description": "v1.0.4",
 	"icons": [
 		
 		{
-			"name": "MisakaF-round",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/MisakaF/round.png"
+			"name": "MisakaF",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/MisakaF.png"
 		},
 		{
-			"name": "MisakaF-square",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/MisakaF/square.png"
+			"name": "Aliyunpan",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Aliyunpan.png"
 		},
 		{
-			"name": "Aliyunpan-round",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Aliyunpan/round.png"
+			"name": "Misty",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Misty.png"
 		},
 		{
-			"name": "Aliyunpan-square",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Aliyunpan/square.png"
+			"name": "Orange",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Orange.png"
 		},
 		{
-			"name": "Misty-round",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Misty/round.png"
-		},
-		{
-			"name": "Misty-square",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Misty/square.png"
-		},
-		{
-			"name": "Orange-round",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Orange/round.png"
-		},
-		{
-			"name": "Orange-square",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/Orange/square.png"
-		},
-		{
-			"name": "JUDOG-round",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/JUDOG/round.png"
-		},
-		{
-			"name": "JUDOG-square",
-			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/JUDOG/square.png"
+			"name": "JUDOG",
+			"url": "https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/emby/JUDOG.png"
 		}
 	]
 }
