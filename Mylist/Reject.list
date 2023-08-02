@@ -1,19 +1,9 @@
 # > 部分摘自MyBlockAds。https://is.gd/tiF1NW
 # > 屏蔽 iOS 更新, 请使用描述文件。支持 iOS12 - iOS16 所有设备
 # https://raw.githubusercontent.com/RuCu6/QuanX/main/Files/2023noota.mobileconfig
-# > 垃圾空链接
-IP-CIDR,36.110.144.18/32,no-resolve
-IP-CIDR,39.165.89.140/32,no-resolve
-IP-CIDR,183.61.49.155/32,no-resolve
-IP-CIDR,59.36.121.252/32,no-resolve
-IP-CIDR,111.48.226.173/32,no-resolve
-IP-CIDR,111.231.13.74/32,no-resolve
 # > Apple
 DOMAIN,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
-DOMAIN-SUFFIX,ads.internal.unity3d.com
-DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
-DOMAIN-SUFFIX,unityads.unity3d.com
 # > 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN,proxy.safebrowsing.apple
@@ -35,6 +25,8 @@ DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
 DOMAIN,httpdns.baidubce.com
 DOMAIN,lc.map.baidu.com
+# 彩云天气
+DOMAIN, ad.cyapi.cn
 # > 哔哩哔哩
 DOMAIN,mall.bilibili.com
 DOMAIN,passport.bilibili.com
