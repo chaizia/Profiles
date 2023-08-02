@@ -1,0 +1,16 @@
+#!name=06.阿里云盘
+#!desc=净化
+#!system=ios
+# Via:RuCu6 Key佬
+[Rule]
+IP-CIDR,203.107.1.1/24,REJECT,no-resolve
+
+[Map Local]
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+
+[Script]
+阿里云盘净化 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-update-interval=-1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
+
+[MITM]
+hostname = %APPEND% api.alipan.com
