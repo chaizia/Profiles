@@ -61,6 +61,7 @@ DOMAIN,free-aos-cdn-image.amap.com
 # 广告联盟
 DOMAIN,is.snssdk.com
 DOMAIN,mi.gdt.qq.com
+DOMAIN,mi-eo.gdt.qq.com
 DOMAIN,open.e.kuaishou.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
