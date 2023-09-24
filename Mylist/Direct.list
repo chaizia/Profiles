@@ -41,17 +41,16 @@ DOMAIN,emoji.qpic.cn
 # > aliyunpan
 DOMAIN-SUFFIX,aliyundrive.net
 DOMAIN-SUFFIX,aliyuncs.com
+# > VPS排除
+IP-CIDR,38.55.98.249/32,no-resolve
+IP-CIDR,193.32.148.126/32,no-resolve
+IP-CIDR,104.156.140.131/32,no-resolve
 # > other
 DOMAIN-SUFFIX,chaizi.cc
 DOMAIN,ad.12306.cn
 DOMAIN,gg.caixin.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,amdc.m.taobao.com
-# > 排除
-IP-CIDR,38.55.98.196/32,no-resolve
-IP-CIDR,38.55.98.249/32,no-resolve
-IP-CIDR,193.32.148.126/32,no-resolve
-IP-CIDR,104.156.140.131/32,no-resolve
 # > 局域网
 DOMAIN-SUFFIX,local,no-resolve
 IP-CIDR,192.168.0.0/16,no-resolve
