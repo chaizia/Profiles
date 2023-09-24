@@ -6,6 +6,12 @@
 # Apple
 DOMAIN,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
+# iOS 升级屏蔽
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,xp.apple.com
+
 # 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN,proxy.safebrowsing.apple
