@@ -6,7 +6,7 @@ const REQUEST_HEADERS = {
 
 ;(async () => {
   let panel_result = {
-    title: '𝗦𝗧𝗥𝗘𝗔𝗠 𝗖𝗛𝗘𝗖𝗞',
+    title: '𝗦𝗧𝗥𝗘𝗔𝗠𝗖𝗛𝗘𝗖𝗞',
     content: '',
     icon: 'play.circle',
     'icon-color': '#00BC12',
