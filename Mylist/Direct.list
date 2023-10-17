@@ -51,6 +51,8 @@ DOMAIN,ad.12306.cn
 DOMAIN,gg.caixin.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,amdc.m.taobao.com
+# > 直连订阅
+DOMAIN,lvrmdg.xyz
 # > TG MTPROTO
 DOMAIN,azure.microsoft.com
 # > misakaf emby
