@@ -55,10 +55,6 @@ DOMAIN,amdc.m.taobao.com
 DOMAIN,lvrmdg.xyz
 # > TG MTPROTO
 DOMAIN,azure.microsoft.com
-# > misakaf emby
-DOMAIN-SUFFIX,misakaf.org
-DOMAIN,2333.123456.al
-DOMAIN-KEYWORD,embyvip
 # > 局域网
 DOMAIN-SUFFIX,local,no-resolve
 IP-CIDR,192.168.0.0/16,no-resolve
