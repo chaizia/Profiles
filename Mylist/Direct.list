@@ -51,6 +51,7 @@ DOMAIN,ad.12306.cn
 DOMAIN,gg.caixin.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,amdc.m.taobao.com
+DOMAIN-SUFFIX,misakaf.org
 # > 直连订阅
 DOMAIN,lvrmdg.xyz
 # > TG MTPROTO
