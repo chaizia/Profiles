@@ -3,11 +3,6 @@
 # https://raw.githubusercontent.com/RuCu6/QuanX/main/Files/2023noota.mobileconfig
 
 # ======= A ======= #
-# iOS 升级屏蔽
-# DOMAIN,mesu.apple.com
-# DOMAIN,gdmf.apple.com
-# DOMAIN,updates-http.cdn-apple.com
-# DOMAIN,xp.apple.com
 # 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN-SUFFIX,u3.ucweb.com
@@ -24,7 +19,7 @@ DOMAIN,lc.map.baidu.com
 IP-CIDR,180.76.76.200/32,no-resolve
 # ======= C ======= #
 # 彩云天气
-DOMAIN, ad.cyapi.cn
+DOMAIN,ad.cyapi.cn
 # ======= F ======= #
 # Flurry
 DOMAIN,data.flurry.com
@@ -84,7 +79,6 @@ DOMAIN,furiousfar.com
 DOMAIN,swallowcrockerybless.com
 # ======= Y ======= #
 # 优酷 & 菜鸟
-;DOMAIN,acs.youku.com
 DOMAIN,acs4baichuan.m.taobao.com
 DOMAIN,adsmind.ugdtimg.com
 DOMAIN,amdc.m.youku.com
