@@ -6,7 +6,7 @@
 # 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN-SUFFIX,u3.ucweb.com
-DOMAIN-KEYWORD,safebrowsing
+DOMAIN-KEYWORD,safebrowsing.
 # ======= B ======= #
 # 百度
 DOMAIN,mobads.baidu.com
