@@ -1,6 +1,4 @@
-# > 源自神机，增加自用部分。
-# > 主：https://is.gd/g3nE1u
-# > 辅：https://is.gd/2ONgKO (Tencent部分)
+# > 源自神机，增加自用部分。 https://is.gd/g3nE1u
 # Direct+
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
@@ -35,9 +33,6 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
-IP-CIDR,182.254.116.0/24,no-resolve
-IP-CIDR,203.205.238.0/23,no-resolve
-IP-CIDR,203.205.254.0/23,no-resolve
 # > Strava
 DOMAIN,analytics.strava.com
 # > Umeng
