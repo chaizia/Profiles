@@ -10,7 +10,7 @@
 
 ### 特别感谢 ：
 
-* [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源
+* [@ConnersHua](https://github.com/ConnersHua/RuleGo/tree/master/Surge) 规则订阅主来源
 
 * [@Orz-3](https://github.com/Orz-3/mini) 可用图标
 
@@ -19,9 +19,3 @@
 * [@Peng-YM](https://github.com/Peng-YM/Sub-Store/tree/master/config) Sub-Store
 
 * [@Hackl0us](https://github.com/Hackl0us/GeoIP2-CN) GeoIP2-CN
-
-* [@Masaiki](https://github.com/Masaiki/GeoIP2-CN/tree/release) GeoIP2-CN
-
-
-
-
