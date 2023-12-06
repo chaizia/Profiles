@@ -51,8 +51,6 @@ DOMAIN,ad.12306.cn
 DOMAIN,gg.caixin.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,amdc.m.taobao.com
-DOMAIN-SUFFIX,misakaf.org
-DOMAIN-SUFFIX,cfprefer3.xyz
 # > 直连订阅
 DOMAIN,lvrmdg.xyz
 # > 局域网
