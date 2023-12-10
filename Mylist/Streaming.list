@@ -1,0 +1,31 @@
+# > 摘自神机 https://is.gd/4zGCRX
+
+# > Netflix
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-KEYWORD,netflixdnstest
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,dualstack.apiproxy-
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+# > YouTube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
