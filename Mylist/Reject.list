@@ -3,6 +3,23 @@
 # https://raw.githubusercontent.com/RuCu6/QuanX/main/Files/2023noota.mobileconfig
 
 # ======= A ======= #
+# Apple
+DOMAIN,advertising.apple.com
+DOMAIN,api-adservices.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,banners.itunes.apple.com
+DOMAIN,iad.apple.com
+DOMAIN,iadcontent.apple.com
+DOMAIN,iadctest.qwapi.com
+DOMAIN,iadmoo.apple.com
+DOMAIN,iadworkbench.apple.com
+DOMAIN,launch.apple.com
+DOMAIN,qwapi.apple.com
+DOMAIN-SUFFIX,advp.apple.com
+DOMAIN-SUFFIX,iad-apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+# 阿里云盘
+IP-CIDR,203.107.1.1/24,no-resolve
 # 安全浏览限制解除
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN-SUFFIX,u3.ucweb.com
@@ -55,6 +72,17 @@ DOMAIN,adx.hupu.com
 DOMAIN,adx-api.hupu.com
 DOMAIN,goblin.hupu.com
 DOMAIN,ccdace.hupu.com
+# httpdns
+DOMAIN,hdns.ksyun.com
+DOMAIN-KEYWORD,httpdns.
+DOMAIN-KEYWORD,httpdns-
+# ======= J ======= #
+# 建设银行
+DOMAIN-KEYWORD,adv.ccb.com
+# 京东
+DOMAIN,dns.jd.com
+IP-CIDR,101.124.19.122/32,no-resolve
+IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
 # ======= T ======= #
 # 腾讯
 DOMAIN,adsmind.gdtimg.com
