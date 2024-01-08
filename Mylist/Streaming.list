@@ -1,21 +1,4 @@
-# > 摘自神机 https://is.gd/4zGCRX
-
-# > Netflix
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,netflixdnstest
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-DOMAIN-KEYWORD,dualstack.apiproxy-
-# > Pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
+# > 油管部分摘自神机 https://is.gd/4zGCRX
 # > YouTube
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,withyoutube.com
@@ -29,3 +12,19 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
+# > 橘子
+DOMAIN-SUFFIX,otv.icu
+# > 终点站
+DOMAIN-SUFFIX,emby.wtf
+# > 1111垃圾影音
+DOMAIN-SUFFIX,xmsl.org
+# > 纸片人
+DOMAIN-SUFFIX,embyplus.org
+DOMAIN-SUFFIX,9521732.xyz
+# > MisakaF
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,cfprefer3.xyz
+# > Ntrrr
+DOMAIN,ntrrr.am.sb
+# > 私房菜【卷毛鼠】
+DOMAIN,notnetflix.cos.cat
