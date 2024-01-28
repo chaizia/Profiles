@@ -24,8 +24,8 @@ DOMAIN-SUFFIX,9521732.xyz
 # > MisakaF 可直连
 #DOMAIN-SUFFIX,misakaf.org
 #DOMAIN-SUFFIX,cfprefer3.xyz
-# > 私房菜【卷毛鼠】可直连
-#DOMAIN,notnetflix.cos.cat
+# > 私房菜【卷毛鼠】
+DOMAIN,notnetflix.cos.cat
 # > Ntrrr
 DOMAIN-SUFFIX,ntrrr.top
 # > Lyrebird琴鸟 可直连
