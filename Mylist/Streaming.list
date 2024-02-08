@@ -26,8 +26,8 @@ DOMAIN-SUFFIX,9521732.xyz
 #DOMAIN-SUFFIX,cfprefer3.xyz
 # > 私房菜【卷毛鼠】
 DOMAIN,notnetflix.cos.cat
-# > Ntrrr
-DOMAIN-SUFFIX,ntrrr.top
+# > Ntrrr【kr-stream.ntrrr.top可直连】
+DOMAIN,stream.ntrrr.top
 # > Lyrebird琴鸟 可直连
 #DOMAIN-SUFFIX,lyrebirdemby.com
 #IP-CIDR,167.235.116.53/32,no-resolve
