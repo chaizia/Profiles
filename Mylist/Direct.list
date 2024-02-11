@@ -38,9 +38,6 @@ DOMAIN,analytics.strava.com
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
-# > aliyunpan
-DOMAIN-SUFFIX,aliyundrive.net
-DOMAIN-SUFFIX,aliyuncs.com
 # > VPS排除
 IP-CIDR,193.32.148.126/32,no-resolve
 IP-CIDR,104.156.140.131/32,no-resolve
