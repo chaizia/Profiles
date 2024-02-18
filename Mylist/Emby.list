@@ -2,15 +2,18 @@
 DOMAIN-SUFFIX,otv.icu
 # > 终点站
 DOMAIN-SUFFIX,emby.wtf
-# > 1111 垃圾影音
+# > 1111垃圾影音
 DOMAIN-SUFFIX,xmsl.org
 # > 纸片人
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,9521732.xyz
-# > MisakaF
-DOMAIN-SUFFIX,misakaf.org
-DOMAIN-SUFFIX,cfprefer3.xyz
-# > Texon Ntrrr
-DOMAIN,ntrrr.am.sb
-# > 私房菜（卷毛鼠）
+# > MisakaF 可直连
+#DOMAIN-SUFFIX,misakaf.org
+#DOMAIN-SUFFIX,cfprefer3.xyz
+# > 私房菜【卷毛鼠】
 DOMAIN,notnetflix.cos.cat
+# > Ntrrr【kr-stream.ntrrr.top可直连】
+DOMAIN,stream.ntrrr.top
+# > Lyrebird琴鸟 可直连
+#DOMAIN-SUFFIX,lyrebirdemby.com
+#IP-CIDR,167.235.116.53/32,no-resolve
