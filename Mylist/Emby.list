@@ -2,6 +2,8 @@
 DOMAIN-SUFFIX,emby.wtf
 # > 1111垃圾影音
 DOMAIN-SUFFIX,xmsl.org
+# > Ntrrr
+DOMAIN,stream.ntrrr.top
 # > 纸片人
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,9521732.xyz
@@ -11,5 +13,4 @@ DOMAIN,notnetflix.cos.cat
 DOMAIN,cc.coemn.com
 # > hxd（cf走代理）
 DOMAIN,bili.bili.rip
-# > Ntrrr
-DOMAIN,stream.ntrrr.top
+
