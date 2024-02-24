@@ -42,6 +42,7 @@ DOMAIN,ad.cyapi.cn
 DOMAIN,data.flurry.com
 # ======= G ======= #
 # 高德地图
+DOMAIN,amdc.m.taobao.com
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
 DOMAIN,free-aos-cdn-image.amap.com
