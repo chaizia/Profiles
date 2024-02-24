@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,9521732.xyz
 DOMAIN,notnetflix.cos.cat
 # > CC公益
 DOMAIN,cc.coemn.com
-# > hxd（有瑟瑟，临时启用）
-DOMAIN-SUFFIX,bili.rip
-
+# > hxd（cf走代理）
+DOMAIN,cf.bili.rip
+# > Ntrrr
+DOMAIN,stream.ntrrr.top
