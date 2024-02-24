@@ -31,8 +31,6 @@ DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
-DOMAIN,sdk.e.qq.com
-DOMAIN,emoji.qpic.cn
 # > Strava
 DOMAIN,analytics.strava.com
 # > Umeng
@@ -41,12 +39,8 @@ DOMAIN,msg.umengcloud.com
 # > VPS排除
 IP-CIDR,193.32.148.126/32,no-resolve
 IP-CIDR,104.156.140.131/32,no-resolve
-# > other
+# > Other
 DOMAIN-SUFFIX,chaizi.cc
-DOMAIN,ad.12306.cn
-DOMAIN,gg.caixin.com
-DOMAIN,ca.iadsdk.apple.com
-DOMAIN,amdc.m.taobao.com
 # > 直连订阅
 DOMAIN,lvrmdg.xyz
 # > 局域网
