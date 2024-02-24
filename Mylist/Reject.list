@@ -28,10 +28,6 @@ DOMAIN-KEYWORD,safebrowsing.
 # 百度
 DOMAIN,mobads.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
-# 百度地图
-DOMAIN,afd.baidu.com
-DOMAIN,afdconf.baidu.com
-DOMAIN,lc.map.baidu.com
 # 百度贴吧
 IP-CIDR,180.76.76.200/32,no-resolve
 # ======= C ======= #
