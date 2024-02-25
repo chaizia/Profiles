@@ -1,12 +1,10 @@
-# > 终点站
-DOMAIN-SUFFIX,emby.wtf
 # > 1111垃圾影音
 DOMAIN-SUFFIX,xmsl.org
 # > Ntrrr
 DOMAIN,stream.ntrrr.top
-# > 纸片人
-DOMAIN-SUFFIX,embyplus.org
-DOMAIN-SUFFIX,9521732.xyz
+# > 纸片人（可直连）
+#DOMAIN-SUFFIX,embyplus.org
+#DOMAIN-SUFFIX,9521732.xyz
 # > 私房菜【卷毛鼠】
 DOMAIN,notnetflix.cos.cat
 # > CC公益
