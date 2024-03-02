@@ -1,4 +1,4 @@
-#!name=06.阿里云盘
+#!name=阿里云盘
 #!desc=净化
 #!system=ios
 # Via:RuCu6 Key佬
@@ -6,11 +6,12 @@
 IP-CIDR,203.107.1.1/24,REJECT,no-resolve
 
 [Map Local]
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
 阿里云盘净化1 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-update-interval=-1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
-
 阿里云盘净化2 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,max-size=0,script-update-interval=-1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
 [MITM]
