@@ -13,8 +13,9 @@
 ^https:\/\/biz\.cyapi\.cn\/p\/v1\/entries\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # 彩云天气 去发现
 ^https:\/\/starplucker\.cyapi\.cn\/v3\/operation\/homefeatures data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
+# 彩云天气 去赏花
+^https?:\/\/api\.caiyunapp\.com\/v1\/activity data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 [MITM]
-hostname = %APPEND% biz.cyapi.cn, wrapper.cyapi.cn, starplucker.cyapi.cn
+hostname = %APPEND% biz.cyapi.cn, wrapper.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com
 
 
