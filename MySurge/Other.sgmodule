@@ -1,5 +1,14 @@
 #!name=去广告小集合
-#!desc=交管12123、识货、易捷、中国移动、WPSVIP
+#!desc=搜索、交管12123、识货、易捷、中国移动、WPSVIP
+
+[URL Rewrite]
+# > DuckDuckGo搜索
+^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ https://github.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=f\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=d\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=s\+([^&]+).+ https://www.google.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 [Map Local]
 # 交管12123 //gab.122.gov.cn
@@ -22,4 +31,4 @@ pornhub = type=http-response, pattern=^https?:/\/(cn|www)\.pornhub\.com\/($|(vie
 WPSOffice = type=http-response, pattern=^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview), script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% gab.122.gov.cn, cn.pornhub.com, www.pornhub.com, sh-gateway.shihuo.cn, vas.wps.cn, account.wps.cn, a.sinopecsales.com, client.app.coc.10086.cn
+hostname = %APPEND% duckduckgo.com, gab.122.gov.cn, cn.pornhub.com, www.pornhub.com, sh-gateway.shihuo.cn, vas.wps.cn, account.wps.cn, a.sinopecsales.com, client.app.coc.10086.cn
