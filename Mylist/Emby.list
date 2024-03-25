@@ -1,5 +1,3 @@
-# > 1111垃圾影音 中转线路可直连
-# DOMAIN-SUFFIX,xmsl.org
 # > Ntrrr
 DOMAIN,stream.ntrrr.top
 # > 纸片人
@@ -9,6 +7,5 @@ DOMAIN,gd.9521732.xyz
 DOMAIN,notnetflix.cos.cat
 # > CC公益
 DOMAIN,cc.coemn.com
-# > hxd（cf走代理）
-DOMAIN,bili.bili.rip
+
 
