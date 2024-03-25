@@ -27,8 +27,9 @@
 [Script]
 pornhub = type=http-response, pattern=^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js, requires-body=true, max-size=-1, timeout=60
 
-# WPS VIP//vas.wps.cn, account.wps.cn
-WPSOffice = type=http-response, pattern=^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview), script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% duckduckgo.com, gab.122.gov.cn, cn.pornhub.com, www.pornhub.com, sh-gateway.shihuo.cn, vas.wps.cn, account.wps.cn, a.sinopecsales.com, client.app.coc.10086.cn
+hostname = %APPEND% duckduckgo.com, gab.122.gov.cn, cn.pornhub.com, www.pornhub.com, sh-gateway.shihuo.cn, a.sinopecsales.com, client.app.coc.10086.cn
+
+
+
