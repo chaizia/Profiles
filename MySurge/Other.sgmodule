@@ -1,5 +1,5 @@
 #!name=去广告小集合
-#!desc=搜索、交管12123、识货、易捷、中国移动、WPSVIP
+#!desc=DDG搜索, 交管12123、识货、易捷去广告
 
 [URL Rewrite]
 # > DuckDuckGo搜索
@@ -18,18 +18,8 @@
 # 易捷加油//a.sinopecsales.com
 ^https:\/\/a\.sinopecsales\.com\/app\/cms\/AppCmsPage\.json data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-# PornHub//cn.pornhub.com, www.pornhub.com
-^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# 中国移动 //client.app.coc.10086.cn
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-[Script]
-pornhub = type=http-response, pattern=^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js, requires-body=true, max-size=-1, timeout=60
-
-
 [MITM]
-hostname = %APPEND% duckduckgo.com, gab.122.gov.cn, cn.pornhub.com, www.pornhub.com, sh-gateway.shihuo.cn, a.sinopecsales.com, client.app.coc.10086.cn
+hostname = %APPEND% duckduckgo.com, gab.122.gov.cn,  sh-gateway.shihuo.cn, a.sinopecsales.com
 
 
 
