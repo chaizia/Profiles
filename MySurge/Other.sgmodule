@@ -20,6 +20,3 @@
 
 [MITM]
 hostname = %APPEND% duckduckgo.com, gab.122.gov.cn,  sh-gateway.shihuo.cn, a.sinopecsales.com
-
-
-
