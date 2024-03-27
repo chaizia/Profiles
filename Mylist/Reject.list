@@ -47,6 +47,9 @@ DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 
 # ======= H ======= #
+# Hupu
+DOMAIN,goblin.hupu.com
+DOMAIN,ccdace.hupu.com
 # httpdns
 DOMAIN,hdns.ksyun.com
 DOMAIN-KEYWORD,httpdns.
