@@ -5,8 +5,6 @@
 hostname = %APPEND% duckduckgo.com
 
 [URL Rewrite]
-^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ https://github.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=f\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=s\+([^&]+).+ https://www.google.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
