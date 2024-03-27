@@ -1,3 +1,4 @@
+# > 摘自 https://github.com/Blankwonder/surge-list/blob/master/cn.list
 # > 局域网
 DOMAIN-SUFFIX,local
 IP-CIDR,0.0.0.0/8,no-resolve
