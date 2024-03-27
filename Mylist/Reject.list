@@ -1,6 +1,4 @@
 # 主要摘自MyBlockAds,原作者Walala https://is.gd/tiF1NW
-# 屏蔽 iOS 更新,请使用描述文件，支持 iOS12 - iOS16 所有设备
-# https://raw.githubusercontent.com/RuCu6/QuanX/main/Files/2023noota.mobileconfig
 
 # ======= A ======= #
 # Apple
@@ -24,25 +22,25 @@ IP-CIDR,203.107.1.1/24,no-resolve
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN-SUFFIX,u3.ucweb.com
 DOMAIN-KEYWORD,safebrowsing.
+
 # ======= B ======= #
 # 百度
 DOMAIN,mobads.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
-# 百度贴吧
 IP-CIDR,180.76.76.200/32,no-resolve
-# ======= C ======= #
-# 彩云天气
-DOMAIN,ad.cyapi.cn
+IP-CIDR,180.76.76.112/32,no-resolve
+# 百度地图
+DOMAIN,afd.baidu.com
+DOMAIN,afdconf.baidu.com
+DOMAIN,lc.map.baidu.com
+
 # ======= F ======= #
 # Flurry
 DOMAIN,data.flurry.com
+
 # ======= G ======= #
 # 高德地图
-DOMAIN,amdc.m.taobao.com
 DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,awaken.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-
 # 广告联盟
 DOMAIN,ad.zijieapi.com
 DOMAIN,i.snssdk.com
@@ -51,21 +49,7 @@ DOMAIN,open.e.kuaishou.com
 DOMAIN,open.kuaishou.com
 DOMAIN,pagead2.googlesyndication-cn.com
 DOMAIN,pagead2.googlesyndication.com
-DOMAIN,pagead2.googlesyndication.com.net
 DOMAIN,www.googleadservices.com
-DOMAIN,googleads.g.doubleclick-cn.net
-DOMAIN,googleads.g.doubleclick.net
-DOMAIN,pubads.g.doubleclick.net
-DOMAIN-SUFFIX,adukwai.com
-DOMAIN,monitor.ssp.admobile.top
-DOMAIN,sdk.ssp.admobile.top
-DOMAIN-SUFFIX,admobile.top
-DOMAIN-SUFFIX,jiguang.cn
-DOMAIN-SUFFIX,union.baidu.cn
-DOMAIN-SUFFIX,union.baidu.com
-DOMAIN,mazu.m.qq.com
-DOMAIN,sdk.e.qq.com
-DOMAIN,sdk.tianmu.mobi
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,kuaishouzt.com
@@ -77,7 +61,6 @@ DOMAIN-KEYWORD,pangolin-sdk-toutiao
 DOMAIN-KEYWORD,pangolin.snssdk.com
 DOMAIN-KEYWORD,pglstatp-toutiao
 DOMAIN-KEYWORD,video-cn.snssdk.com
-DOMAIN-KEYWORD,-tos.pstatp.com
 
 # ======= H ======= #
 # Hupu
@@ -89,13 +72,14 @@ DOMAIN,ccdace.hupu.com
 DOMAIN,hdns.ksyun.com
 DOMAIN-KEYWORD,httpdns.
 DOMAIN-KEYWORD,httpdns-
+
 # ======= J ======= #
 # 建设银行
 DOMAIN-KEYWORD,adv.ccb.com
 # 京东
 DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
-IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
+
 # ======= T ======= #
 # 腾讯
 DOMAIN,adsmind.gdtimg.com
@@ -113,11 +97,7 @@ DOMAIN-SUFFIX,l.qq.com
 DOMAIN-KEYWORD,trace.qq.com
 DOMAIN-KEYWORD,trace.video.qq.com
 IP-CIDR,47.110.187.87/32,no-resolve
-# ======= R ======= #
-# RARBG 推广跳转
-DOMAIN,bravetense.com
-DOMAIN,furiousfar.com
-DOMAIN,swallowcrockerybless.com
+
 # ======= Y ======= #
 # 优酷 & 菜鸟
 DOMAIN,acs4baichuan.m.taobao.com
@@ -126,6 +106,7 @@ DOMAIN,amdc.m.youku.com
 DOMAIN,api.sm.cn
 DOMAIN,apiv4-iyes.youku.com
 DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,cad.youku.com
 DOMAIN,huichuan-mc.sm.cn
 DOMAIN,huichuan.sm.cn
 DOMAIN,iyes.youku.com
