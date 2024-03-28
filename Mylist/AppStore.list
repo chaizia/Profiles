@@ -1,5 +1,4 @@
-# App Store  分流摘自神机：https://is.gd/1t227L
-# Store content such as apps, books, and music
+# 神机 https://is.gd/1t227L
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
