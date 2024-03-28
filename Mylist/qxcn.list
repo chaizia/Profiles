@@ -1,23 +1,20 @@
-# > 局域网
-DOMAIN-SUFFIX,local
-IP-CIDR,0.0.0.0/8,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-IP-CIDR,127.0.0.0/8,no-resolve
-IP-CIDR,169.254.0.0/16,no-resolve
-IP-CIDR,192.0.0.0/24,no-resolve
-IP-CIDR,192.0.2.0/24,no-resolve
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,100.64.0.0/10,no-resolve
-IP-CIDR,224.0.0.0/4,no-resolve
-IP-CIDR6,fe80::/10,no-resolve
-# > VPS
+# > 摘自 https://is.gd/sXgaBq
+# > Lan
+DOMAIN-SUFFIX local
+IP-CIDR 0.0.0.0/8,no-resolve
+IP-CIDR 10.0.0.0/8,no-resolve
+IP-CIDR 100.64.0.0/10,no-resolve
+IP-CIDR 127.0.0.0/8,no-resolve
+IP-CIDR 172.16.0.0/12,no-resolve
+IP-CIDR 169.254.0.0/16,no-resolve
+IP-CIDR 192.0.0.0/24,no-resolve
+IP-CIDR 192.0.2.0/24,no-resolve
+IP-CIDR 192.168.0.0/16,no-resolve
+IP-CIDR 224.0.0.0/4,no-resolve
+# > Other
+DOMAIN,lvrmdg.xyz
 IP-CIDR,193.32.148.126/32,no-resolve
 IP-CIDR,104.156.140.131/32,no-resolve
-# > Other
-DOMAIN-SUFFIX,chaizi.cc
-# > 直连订阅
-DOMAIN,lvrmdg.xyz
 # > China Apps
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
@@ -27,9 +24,6 @@ DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,.tmall.
-IP-CIDR,198.11.188.0/25,no-resolve
-IP-CIDR,198.11.136.0/24,no-resolve
-USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
 # > China
 DOMAIN-SUFFIX,CN
 DOMAIN-KEYWORD,baidu
