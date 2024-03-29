@@ -1,5 +1,8 @@
 # @Walala https://is.gd/tiF1NW
 
+# 防止应用循环请求
+IP-CIDR,0.0.0.0/32,no-resolve
+
 # 阿里云盘
 IP-CIDR,203.107.1.1/24,no-resolve
 
@@ -53,3 +56,5 @@ DOMAIN,ccdace.hupu.com
 DOMAIN,hdns.ksyun.com
 DOMAIN-KEYWORD,httpdns.
 DOMAIN-KEYWORD,httpdns-
+
+
