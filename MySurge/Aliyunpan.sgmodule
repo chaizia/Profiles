@@ -1,6 +1,8 @@
 #!name=阿里云盘
-#!desc=净化
+#!desc=净化首页
 #!system=ios
+#!category=常用模块
+
 # Via:RuCu6 Key佬
 [Rule]
 IP-CIDR,203.107.1.1/24,REJECT,no-resolve
