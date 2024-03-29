@@ -1,0 +1,10 @@
+#!name=识货净化
+#!desc=去首页开屏广告
+#!category=常用模块
+
+[Map Local]
+^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+
+[MITM]
+hostname = %APPEND% sh-gateway.shihuo.cn

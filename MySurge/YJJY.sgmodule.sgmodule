@@ -1,0 +1,9 @@
+#!name=易捷加油
+#!desc=去开屏去广告
+#!category=常用模块
+
+[Map Local]
+^https:\/\/a\.sinopecsales\.com\/app\/cms\/AppCmsPage\.json data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+[MITM]
+hostname = %APPEND% a.sinopecsales.com
