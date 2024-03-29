@@ -1,10 +1,11 @@
-#!name=DuckDuckGo
-#!desc=Safari默认搜索为DuckDuckGo，g+关键词转GitHub搜索，b+关键词转百度搜索，f+关键词转翻译，关键词直接Google搜索
-
-[MITM]
-hostname = %APPEND% duckduckgo.com
+#!name=Qsearch
+#!desc=DuckDuckGo搜索
+#!category=常用模块
 
 [URL Rewrite]
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=f\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+[MITM]
+hostname = %APPEND% duckduckgo.com
