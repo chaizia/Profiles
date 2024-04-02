@@ -1,0 +1,12 @@
+# Emby.list+YouTube（>Global）
+# YouTube
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
+# > 纸片人
+DOMAIN-SUFFIX,embyplus.org
+# > CC公益
+DOMAIN,cc.coemn.com
+# > 私房菜.卷毛鼠
+DOMAIN,notnetflix.cos.cat
