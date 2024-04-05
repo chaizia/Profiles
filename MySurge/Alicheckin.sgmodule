@@ -1,7 +1,7 @@
 #!name=阿里签到
 #!desc=阿里云盘签到
 #!category=常用模块
-# 获取cookies https://is.gd/HvBQRr
+# 获取token https://is.gd/HvBQRr
 
 [Script]
 阿里云盘签到 = type=cron,cronexp="15 9 * * *",script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
