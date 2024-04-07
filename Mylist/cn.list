@@ -1,10 +1,4 @@
 # > 摘自 https://is.gd/sXgaBq
-# > Other
-DOMAIN,lvrmdg.xyz
-IP-CIDR,193.32.148.126/32,no-resolve
-IP-CIDR,104.156.140.131/32,no-resolve
-IP-CIDR,40.119.197.213/32,no-resolve
-IP-CIDR,4.215.197.251/32,no-resolve
 # > China Apps
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
