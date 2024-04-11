@@ -1,0 +1,8 @@
+#!name=Bilibili签到
+#!desc=B站自动签到
+#!category=常用模块
+# 任务奖励：经验值/硬币/大会员积分等
+# 脚本作者：MartinsKing（@ClydeTime）https://is.gd/BD84rQ
+
+[Script]
+B站每日任务 = type=cron,cronexp=30 9 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js

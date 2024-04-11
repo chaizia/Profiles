@@ -1,0 +1,11 @@
+#!name=B站Cookie获取-MK
+#!desc=ClydeTime佬：https://is.gd/NZ71tA
+#!system=ios
+#!category=临时工具
+
+
+[Script]
+B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
+
+[MITM]
+hostname = %APPEND% app.bilibili.com
