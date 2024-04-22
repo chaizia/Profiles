@@ -1,5 +1,8 @@
 # @Walala https://is.gd/tiF1NW
 
+# ======= A ======= #
+# 禁止跳转app
+DOMAIN,app-site-association.cdn-apple.com
 # 阿里云盘
 IP-CIDR,203.107.1.1/24,no-resolve
 
