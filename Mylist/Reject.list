@@ -26,17 +26,24 @@ DOMAIN,data.flurry.com
 DOMAIN,amap-aos-info-nogw.amap.com
 # 广告联盟
 DOMAIN,ad.zijieapi.com
-DOMAIN,i.snssdk.com
+DOMAIN,init.supersonicads.com
 DOMAIN,is.snssdk.com
 DOMAIN,open.e.kuaishou.com
 DOMAIN,open.kuaishou.com
 DOMAIN,pagead2.googlesyndication-cn.com
 DOMAIN,pagead2.googlesyndication.com
+DOMAIN,ws.tapjoyads.com
 DOMAIN,www.googleadservices.com
 DOMAIN-SUFFIX,ads.linkedin.com
+DOMAIN-SUFFIX,ads.vungle.com
 DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,unityads.unity3d.com
 DOMAIN-KEYWORD,-ad-sign.byteimg.com
 DOMAIN-KEYWORD,ads.g.doubleclick
 DOMAIN-KEYWORD,asiad.byteactivity
