@@ -17,6 +17,11 @@ DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
 DOMAIN,lc.map.baidu.com
 
+# ======= C ======= #
+# 彩云天气
+DOMAIN,abyss.cyapi.cn
+DOMAIN,ad.cyapi.cn
+
 # ======= F ======= #
 # Flurry
 DOMAIN,data.flurry.com
