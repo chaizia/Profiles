@@ -1,8 +1,25 @@
 # @Walala https://is.gd/tiF1NW
 
 # ======= A ======= #
-# 禁止跳转app
-#DOMAIN,app-site-association.cdn-apple.com
+# Apple
+DOMAIN,advertising.apple.com
+DOMAIN,api-adservices.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,banners.itunes.apple.com
+DOMAIN,iad.apple.com
+DOMAIN,iadcontent.apple.com
+DOMAIN,iadctest.qwapi.com
+DOMAIN,iadmoo.apple.com
+DOMAIN,iadworkbench.apple.com
+DOMAIN,launch.apple.com
+DOMAIN,qwapi.apple.com
+DOMAIN-SUFFIX,advp.apple.com
+DOMAIN-SUFFIX,iad-apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+# 安全浏览限制解除
+DOMAIN,lookup.api.bsb.baidu.com
+DOMAIN-SUFFIX,u3.ucweb.com
+DOMAIN-KEYWORD,safebrowsing.
 # 阿里云盘
 IP-CIDR,203.107.1.1/24,no-resolve
 
@@ -19,8 +36,8 @@ DOMAIN,lc.map.baidu.com
 
 # ======= C ======= #
 # 彩云天气
-DOMAIN,abyss.cyapi.cn
-DOMAIN,ad.cyapi.cn
+#DOMAIN,abyss.cyapi.cn
+#DOMAIN,ad.cyapi.cn
 
 # ======= F ======= #
 # Flurry
@@ -31,24 +48,37 @@ DOMAIN,data.flurry.com
 DOMAIN,amap-aos-info-nogw.amap.com
 # 广告联盟
 DOMAIN,ad.zijieapi.com
+DOMAIN,adapi.izuiyou.com
+DOMAIN,adtracker.adfunlink.com
+DOMAIN,dig.bdurl.net
+DOMAIN,dsp-x.jd.com
+DOMAIN,et.tanx.com
+DOMAIN,gdfp.gifshow.com
 DOMAIN,init.supersonicads.com
 DOMAIN,is.snssdk.com
+DOMAIN,janapi.jd.com
+DOMAIN,mercury-gateway.ixiaochuan.cn
 DOMAIN,open.e.kuaishou.com
 DOMAIN,open.kuaishou.com
 DOMAIN,pagead2.googlesyndication-cn.com
 DOMAIN,pagead2.googlesyndication.com
+DOMAIN,sdk.e.qq.com
 DOMAIN,ws.tapjoyads.com
 DOMAIN,www.googleadservices.com
+DOMAIN,xlog.jd.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.vungle.com
 DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,ubixioe.com
 DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-KEYWORD,-ad-sign.byteimg.com
 DOMAIN-KEYWORD,ads.g.doubleclick
 DOMAIN-KEYWORD,asiad.byteactivity
@@ -69,4 +99,21 @@ DOMAIN,hdns.ksyun.com
 DOMAIN-KEYWORD,httpdns.
 DOMAIN-KEYWORD,httpdns-
 
+# ======= J ======= #
+# 建设银行
+DOMAIN-KEYWORD,adv.ccb.com
 
+# ======= W ======= #
+# 微信
+DOMAIN,badjs.weixinbridge.com
+
+# ======= Z ======= #
+# 知乎
+DOMAIN,appcloud.zhihu.com
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,crash2.zhihu.com
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
+DOMAIN,zxid-m.mobileservice.cn
+IP-CIDR,103.41.167.237/32,no-resolve
+IP-CIDR,118.89.204.198/32,no-resolve
