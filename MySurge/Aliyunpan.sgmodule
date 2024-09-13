@@ -2,10 +2,7 @@
 #!desc=阿里云盘首页净化
 #!system=ios
 #!category=常用模块
-
 # Via:Walalala(is.gd/XZN5J6)
-[Rule]
-IP-CIDR,203.107.1.1/24,REJECT,no-resolve
 
 [Map Local]
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}" status-code=200
