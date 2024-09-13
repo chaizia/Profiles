@@ -3,8 +3,7 @@
 #!category=常用模块
 
 [Map Local]
-^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
+^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) data-type=text data="{}" status-code=200
 
 [MITM]
 hostname = %APPEND% sh-gateway.shihuo.cn
