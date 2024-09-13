@@ -3,7 +3,7 @@
 #!category=常用模块
 
 [Map Local]
-^https:\/\/a\.sinopecsales\.com\/app\/cms\/AppCmsPage\.json data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/a\.sinopecsales\.com\/app\/cms\/AppCmsPage\.json data-type=text data="{}" status-code=200
 
 [MITM]
 hostname = %APPEND% a.sinopecsales.com
