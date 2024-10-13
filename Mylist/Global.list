@@ -18,3 +18,8 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,githubusercontent.com
+# add emby
+DOMAIN-SUFFIX,embyplus.org // 纸片人
+DOMAIN,gd.9521732.xyz // 纸片人
+DOMAIN-SUFFIX,pilipili.club // PiliPili面板
+DOMAIN-SUFFIX,misakaf.org // PiliPili&MisakaF
