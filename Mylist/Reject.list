@@ -34,11 +34,6 @@ DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
 DOMAIN,lc.map.baidu.com
 
-# ======= C ======= #
-# 彩云天气
-#DOMAIN,abyss.cyapi.cn
-#DOMAIN,ad.cyapi.cn
-
 # ======= F ======= #
 # Flurry
 DOMAIN,data.flurry.com
@@ -106,14 +101,3 @@ DOMAIN-KEYWORD,adv.ccb.com
 # ======= W ======= #
 # 微信
 DOMAIN,badjs.weixinbridge.com
-
-# ======= Z ======= #
-# 知乎
-DOMAIN,appcloud.zhihu.com
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,crash2.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-DOMAIN,zxid-m.mobileservice.cn
-IP-CIDR,103.41.167.237/32,no-resolve
-IP-CIDR,118.89.204.198/32,no-resolve
