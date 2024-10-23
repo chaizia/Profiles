@@ -1,0 +1,9 @@
+#!name=e充电净化
+#!desc=去开屏广告
+#!category=常用模块
+
+[Map Local]
+https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = %APPEND% cdn-evone-ceph.echargenet.com
