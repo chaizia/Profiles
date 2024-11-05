@@ -1,0 +1,14 @@
+#!name = 中国移动
+#!desc = 去除APP开屏广告
+#!openUrl = https://apps.apple.com/app/id583700738
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/LoonIcons/cmcc.png
+#!date = 2024-11-06 00:07:00
+
+[Rewrite]
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit reject-200
+
+[MitM]
+hostname = client.app.coc.10086.cn
