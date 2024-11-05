@@ -1,7 +1,14 @@
-[URL Rewrite]
-^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
-^https:\/\/duckduckgo.com\/\?q=f\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+#!name = QSearch
+#!desc = b百度搜索，f翻译，直接关键字Google搜索
+#!openUrl = https://github.com/chaizia/Profiles/blob/master/Myloon/DuckDuckGo.plugin
+#!tag = 去广告
+#!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Safari.png
+#!date = 2024-11-5 23:58:50
 
-[MITM]
+[Rewrite]
+^https:\/\/duckduckgo\.com\/\?q=b\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
+^https:\/\/duckduckgo\.com\/\?q=f\+([^&]+).+ 302 https://dict.youdao.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 302 https://www.google.com/search?q=$1
+
+[MitM]
 hostname = duckduckgo.com
