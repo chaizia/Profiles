@@ -1,0 +1,14 @@
+#!name = 易捷加油
+#!desc = 去除APP开屏广告
+#!openUrl = https://apps.apple.com/app/id806114204
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/LoonIcons/yjjy.png
+#!date = 2024-11-06 00:07:00
+
+[Rewrite]
+^https:\/\/a\.sinopecsales\.com\/app\/cms\/AppCmsPage\.json reject-dict
+
+[MitM]
+hostname = a.sinopecsales.com
