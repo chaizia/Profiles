@@ -1,0 +1,14 @@
+#!name = 识货净化
+#!desc = 去除APP开屏广告
+#!openUrl = https://apps.apple.com/app/id875177200
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/LoonIcons/shihuo.png
+#!date = 2024-11-06 00:07:00
+
+[Rewrite]
+^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) reject-dict
+
+[MitM]
+hostname = sh-gateway.shihuo.cn
