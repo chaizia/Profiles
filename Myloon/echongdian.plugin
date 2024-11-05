@@ -1,0 +1,15 @@
+#!name = E充电🔋
+#!desc = 移除开屏广告。
+#!openUrl = https://apps.apple.com/app/id1054941362
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/BaiduNetDisk.png
+#!date = 2024-11-05 23:43:21
+
+
+[Rewrite]
+^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn reject-200
+
+[MitM]
+hostname = cdn-evone-ceph.echargenet.com
