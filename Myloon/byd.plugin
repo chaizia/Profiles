@@ -1,0 +1,14 @@
+#!name = 迪子净化
+#!desc = 比亚迪王朝APP开屏广告去除
+#!openUrl = https://apps.apple.com/app/id493482713
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/chaizia/Profiles/master/faviconico/LoonIcons/byd.png
+#!date = 2024-11-06 00:07:00
+
+[Rewrite]
+^https:\/\/cache\.bydauto\.com\.cn\/dilink_user_upload\/202410 reject-dict
+
+[MitM]
+hostname = cache.bydauto.com.cn
