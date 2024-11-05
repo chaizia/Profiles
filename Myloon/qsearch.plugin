@@ -1,6 +1,6 @@
 #!name = QSearch
-#!desc = b百度搜索，f翻译，直接关键字Google搜索
-#!openUrl = https://github.com/chaizia/Profiles/blob/master/Myloon/DuckDuckGo.plugin
+#!desc = b百度搜索，f有道翻译，默认Google搜索
+#!openUrl = https://1.chaizi.cc/kwEK
 #!tag = 临时工具
 #!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Safari.png
 #!date = 2024-11-5 23:58:50
