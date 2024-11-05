@@ -10,4 +10,4 @@
 
 * [@app2smile](https://github.com/app2smile/rules) 
 
-* [@可莉](https://gitlab.com/lodepuly/vpn_tool) 
+* [@可莉](https://github.com/luestr/ProxyResource) 
