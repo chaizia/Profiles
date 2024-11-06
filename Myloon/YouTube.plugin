@@ -1,19 +1,33 @@
-#!name = YouTube去广告
-#!desc = 移除广告，须禁用UDP443
-#!openUrl = 
-#!author = Maasea 可莉🅥
-#!homepage = https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
+#!name = 油管净化
+#!desc = 移除广告、上传等，增加画中画及翻译
+#!openUrl = https://apps.apple.com/app/id544007664
+#!author = Maasea[https://github.com/Maasea], VirgilClyne[https://github.com/VirgilClyne], Choler[https://github.com/Choler], DivineEngine[https://github.com/DivineEngine], app2smile[https://github.com/app2smile]
+#!tag = 去广告
+#!system = iOS, iPadOS, macOS
+#!system_version = 15
+#!loon_version = 3.2.1(749)
+#!homepage = https://github.com/luestr/ProxyResource/blob/main/README.md
+#!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouTube.png
+#!date = 2024-06-11 21:59:22
+#!select = 隐藏上传按钮, true, false
+#!select = 隐藏选段按钮, true, false
+#!select = 字幕翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
+#!select = 歌词翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
+#select = 启用调试模式, true, false
+
+[Rule]
+AND, ((DOMAIN-SUFFIX, googlevideo.com),  (PROTOCOL, QUIC)), REJECT
+AND, ((DOMAIN-SUFFIX, youtubei.googleapis.com),  (PROTOCOL, QUIC)), REJECT
 
 [Rewrite]
-# 使用reject-200减少开销
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-200
+# 使用reject-dict方法以减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-dict
 
 [Script]
-# 该插件已足够全面，无需其他规则混用，防止复写规则被破坏。
-http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_request.js, requires-body = true, binary-body-mode = true, tag = YouTube Request
+# YouTube去广告
+http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch) script-path = https://kelee.one/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js, requires-body = true, binary-body-mode = true, tag = YouTube请求
 
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube Response
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path = https://kelee.one/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube响应
 
-[MITM]
-hostname = rr*.googlevideo.com, youtubei.googleapis.com
+[MitM]
+hostname = *.googlevideo.com, youtubei.googleapis.com
