@@ -36,5 +36,3 @@
 
 ![](https://raw.githubusercontent.com/chaizia/Profiles/master/MyQuantumultX/%E6%97%A5%E5%BF%97.png)
 
-
-
