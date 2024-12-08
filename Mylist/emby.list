@@ -1,12 +1,10 @@
 DOMAIN-SUFFIX,embymv.link
 IP-CIDR,168.138.45.100/32,no-resolve
-DOMAIN-SUFFIX,xmsl.org
-DOMAIN-SUFFIX,emby.moe
+DOMAIN-SUFFIX,as174.de
 DOMAIN-SUFFIX,bili.rip
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN,gd.9521732.xyz
 DOMAIN-SUFFIX,pilipili.club
 DOMAIN-SUFFIX,misakaf.org
-DOMAIN,dpxcf.niceduck.lol
-DOMAIN,jcf.niceduck.lol
+DOMAIN-SUFFIX,niceduck.lol
 DOMAIN-SUFFIX,emby.wtf
