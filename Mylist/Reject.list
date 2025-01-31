@@ -98,10 +98,6 @@ DOMAIN-KEYWORD,httpdns-
 # 建设银行
 DOMAIN-KEYWORD,adv.ccb.com
 
-# ======= T ======= #
-# telegram
-IP-CIDR,95.161.76.100/31,no-resolve
-
 # ======= W ======= #
 # 微信
 DOMAIN,badjs.weixinbridge.com
