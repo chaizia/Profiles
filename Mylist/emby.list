@@ -5,3 +5,5 @@ DOMAIN-SUFFIX,pilipili.club
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,niceduck.lol
 DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,lyrebirdemby.com
+IP-CIDR,188.172.228.65/32,no-resolve
